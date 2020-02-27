@@ -6,7 +6,10 @@ public class MainTest {
 	/*andrew.setId(10);
 	andrew.setAge(69);
 	andrew.setName("Andrew"); */
-	Student greg = new Student(12, "Greg");
-	System.out.println(Student.getstudentcount());
+/*	Student greg = new Student(12, "Greg");
+	System.out.println(Student.getstudentcount()); */
+//	System.out.println
+	
+	
 	}
 }

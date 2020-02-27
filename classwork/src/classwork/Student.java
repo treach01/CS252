@@ -1,5 +1,6 @@
 package classwork;
 
+
 public class Student {
 	
 	private int age;
@@ -7,7 +8,19 @@ public class Student {
 	private String name;
 	private static int count;
 	public static int fund=0;
-	
+	//object
+	private static Student po;
+
+	//constructor
+	private Student()
+	{}
+	//factory
+	public static Student factory()
+	{ if(count < 3) {po = new Student();
+		count++;
+		return po; }			//what does po accomplish exactly
+	else {return null;}
+		}	
 	
 	//Constructor
 	public Student(int id, String name)
